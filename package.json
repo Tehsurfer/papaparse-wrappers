@@ -1,0 +1,27 @@
+{
+  "name": "sparccsv",
+  "version": "1.0.3",
+  "description": "A wrapper around papaparse to manage CSV data for SPARC",
+  "main": "csv_manager.js",
+  "scripts": {
+    "build": "webpack --mode=none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tehsurfer/papaparse-wrappers.git"
+  },
+  "author": "Jesse Khorasanee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tehsurfer/papaparse-wrappers/issues"
+  },
+  "homepage": "https://github.com/Tehsurfer/papaparse-wrappers#readme",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "papaparse": "^5.0.2"
+  }
+}
