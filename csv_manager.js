@@ -35,6 +35,12 @@ function Sparccsv() {
     }
   }
 
+  this.getTitle = function(url){
+    var title = url.split('/').pop() //grab file from url
+    title = title.replace('_',' ').replace('-',' ').split('.')[0] //Process file name into title
+    return title
+  }
+
   this.getHeaders = function () {
     return _this.csv_data.data[0]
   }

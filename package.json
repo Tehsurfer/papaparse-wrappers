@@ -1,6 +1,6 @@
 {
   "name": "sparccsv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A wrapper around papaparse to manage CSV data for SPARC",
   "main": "csv_manager.js",
   "scripts": {
